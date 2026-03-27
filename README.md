@@ -6,7 +6,7 @@ A hardware implementation of the AES-128 ECB encryption algorithm written in Ver
 
 ## Overview
 
-This project implements the AES-128 (Advanced Encryption Standard) block cipher in Verilog using an iterative architecture. The core performs a full 128-bit encryption in a single clock domain and is designed to be synthesizable on Xilinx FPGAs.
+This project implements the AES-128 (Advanced Encryption Standard) block cipher in Verilog using an iterative architecture. The core performs a full 128-bit encryption in a single clock domain.
 
 The implementation is validated against the official NIST FIPS 197 test vectors:
 
