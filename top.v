@@ -100,7 +100,7 @@ module top(
                 next_state = SUB_BYTES;
               end     
               
-   SUB_BYTES: begin //TODO: Make a valid-ish signal since mem access takes long time
+   SUB_BYTES: begin
                 next_state = SHIFT_ROW;
               end  
    
