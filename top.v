@@ -135,18 +135,18 @@ module top(
     );
     
     shiftRows module3(
-        .state(sub_bytes_state_reg),////////
+        .state(sub_bytes_state_reg),
         .shift_state(shift_state)
     );
     
     mixColumns module4(
-        .state(shift_state_reg),////////
+        .state(shift_state_reg),
         .mix_col_state(mix_col_state)
     );
     
     addKey module5(
         .key(round_key),
-        .state(mix_col_state_reg),////////
+        .state(mix_col_state_reg),
         .add_key_state(add_key_state)
     );
     
