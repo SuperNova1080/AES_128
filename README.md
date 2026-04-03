@@ -1,4 +1,4 @@
-# AES-128 ECB Encryption Core — FPGA Implementation
+# AES-128 ECB Encryption Core
 
 A hardware implementation of the AES-128 ECB encryption algorithm written in Verilog, validated against NIST FIPS 197 test vectors.
 
